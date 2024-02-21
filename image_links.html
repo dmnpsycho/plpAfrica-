@@ -1,0 +1,64 @@
+<!-- 
+    Requirements:
+Create an HTML file named image_links.html.
+Find or create three different images related to different topics (e.g., technology, nature, and food).
+Design a webpage with the following sections:
+Home: Include a welcome message and a linked image related to technology.
+Gallery: Display a grid of linked images related to nature.
+Menu: List food items, and each item should be linked to an image related to that food.
+4. Use appropriate HTML tags for headings, paragraphs, lists, and images.
+
+5. Link each image to a relevant external website (use placeholder URLs if needed).
+
+6. Ensure the page is well-structured and easy to navigate.
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture website</title>
+ </head>
+ <body style="font-size: 2rem; padding:10rem; padding-top:0; background-color:rgba(131, 249, 249, 0.856);">
+    <main>
+        <div style="display:flex; 
+        flex-direction:column;
+        align-items:center;">
+            <h1>Home</h1>
+            <p>Hello and welcome to this website where we explore different things
+                that affect our daily life, including technology, nature and food.
+            </p>
+            <img src=".\Pictures\technology1.jpg" alt="nature" width="900px" height="auto"/>
+        </div>
+
+        <div>
+            <h1>Gallery</h1>
+
+            <figure
+            style="display: flex;flex-direction:row; flex-wrap:wrap; align-content:center; ">
+                <img src=".\Pictures\nature2.jpg" alt="Natureimages" width="700px" height="700px" style="margin:0.4rem;">
+                <img src=".\Pictures\nature3.jpg" alt="Natureimages" width="700px" height="700px" style="margin:0.4rem;">
+                <img src=".\Pictures\nature4.jpg" alt="Natureimages" width="700px" height="700px" style="margin:0.4rem;">
+                <img src=".\Pictures\nature5.jpg" alt="Natureimages" width="700px" height="700px" style="margin:0.4rem;">
+
+            </figure>
+            <figcaption>A taste of nature</figcaption>
+        </div>
+
+        <div>
+            <h1>Food</h1>
+            <p>To name just a few cuisines anyone would die for: </p>
+            <ul style="list-style:none; display:flex; 
+            flex-direction:row;
+            ">
+                <li><figure><img style="margin:0.5rem;" width="700px" height= "700px" img src=".\Pictures\food1.jpg" alt="A platter of different meat types"> 
+                <figcaption>A platter of different meat types</figcaption></figure> </li>
+                <li><figure><img style="margin:0.5rem;" width="700px" height= "700px" img src=".\Pictures\food2.jpg" alt="Bread coated in eggs end grapes">
+                <figcaption>Bread coated in eggs end grapes</figcaption></figure></li>
+            </ul>
+        </div>
+    </main>
+ </body>
+ </html>
