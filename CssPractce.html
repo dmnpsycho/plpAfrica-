@@ -1,0 +1,110 @@
+<!-- 
+    Header Styling:
+Create a header with your name.
+Apply a background color and add padding for style.
+Introduction Section:
+Add an "Introduction" section below the header.
+Introduce yourself with a paragraph.
+Use a different background color and set margins for spacing.
+Skills Display:
+Create a "Skills" section.
+List your skills with bordered list items and padding.
+Adjust margins for spacing between skills.
+Contact Information:
+Design a contact section at the bottom.
+Include email and social media links.
+Apply a background color and use padding for clarity.
+Responsive Design:
+Ensure responsiveness with media queries.
+Adjust margins and padding for different screen sizes.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Document</title>
+    </head>
+    <header style="
+    background-color: rgba(226, 58, 33, 0.549);
+   
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    ">
+        <h1>DALTON PRAISE</h1>
+    </header>
+    <body
+        style="
+        width: 95vw;
+            background-color: papayawhip;
+            padding: 1rem;
+            font-size: 16px;
+            height: 95vh;
+            
+       
+        "
+        @media only screen and (min-width: 1228px) {
+            body{
+             height: 95vh;
+             font-size:20px;
+             background-color: #15d81c;
+            }
+         }
+    
+    >
+        <div class="Intro" style=" 
+        text-align: center;
+        color:rgb(36, 87, 0);
+        border-radius:10%;
+        ">
+            <p>
+                My name is Dalton, I come from Kisumu and I love computer
+                programming and technology. I love learning more about
+                technology and any other current innovations.
+            </p>
+        </div>
+
+        <div class="skills" style=" 
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        border-radius:15%;
+        background-color: rgba(64, 144, 8, 0.519);
+        ">
+            <h2>Below is a list of my various skills:</h2>
+            <ul>
+                <li>Leadership</li>
+                <li>Integrity</li>
+                <li>Industrious</li>
+                <li>Resilient</li>
+                <li>Patient</li>
+                <li>Dependable</li>
+                <li>Trustworthy</li>
+            </ul>
+        </div>
+
+
+    </body>
+    <footer
+    style="
+    width: 95vw;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(143, 165, 14, 0.551);
+        border-radius:15%;
+        justify-content: space-between;
+    "
+>
+    <h1>Contact me:</h2>
+    <h3>Email: daltonpraise1@gmail.com</h3>
+    <h3>Contact: 0768782071</h3>
+    <h3>Instagram: na.ha.shon</h3>
+</footer>
+</html>
